@@ -11,4 +11,17 @@ $(function() {
           $("#carouselButton").children("i").addClass("fa-pause"); 
       }
   })
+    $("#reserveButton").click(function(){
+    $("#reserveModal").modal("show");
+    })
+    $("#loginButton").click(function(){
+    $("#loginModal").modal("show");
+    })
 });
+
+// could have used this also in a separate func
+// $(document).ready(function() { 
+//     $("#reserveButton").click(function(){
+//         $("#reserveModal").modal("show");
+//     })
+// });
